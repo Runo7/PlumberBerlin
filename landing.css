@@ -1,0 +1,182 @@
+/* CSS-Stile für die Landing Page */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.header-image {
+  position: relative;
+  z-index: 1;
+  width: 30%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: -3rem;
+}
+
+.logo-container {
+  
+  margin-right: 10px;
+}
+
+.logo {
+  width: 50px; /* Passen Sie die Breite entsprechend an */
+  height: auto;
+  border-radius: 4px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* CSS-Stile für die Landing Page */
+
+/* ... andere CSS-Regeln ... */
+
+.hero-section {
+  position: relative;
+}
+
+.hero-content {
+  width: 50%;
+  float: left;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-top: 6rem;
+  margin-left: 14rem;
+}
+
+.text-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.features-section {
+  position: relative;
+  z-index: 2;
+  margin-top: -13rem;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.feature {
+  flex: 1;
+  text-align: left;
+}
+
+.feature-icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.feature-content h3 {
+  margin-top: 0;
+}
+
+.feature-content p {
+  margin-bottom: 0;
+}
+
+
+.cta-section {
+  background-color: #F8F8FF;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cta-section h2 {
+  margin-top: 0;
+}
+
+.cta-button {
+  background-color: #FF4500;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #FF6347;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-section h3 {
+  margin-top: 0;
+  color: #FFD700;
+}
+
+.footer-section p {
+  margin-bottom: 0;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
