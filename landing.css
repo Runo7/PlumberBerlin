@@ -180,3 +180,31 @@ footer {
 .footer-section a:hover {
   text-decoration: underline;
 }
+
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    display: block;
+  }
+  
+  .hero-content {
+    width: 100%;
+    float: none;
+    padding-right: 0;
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  .header-image {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .feature-container {
+    flex-direction: column;
+  }
+
+  .feature {
+    text-align: center;
+  }
+}
